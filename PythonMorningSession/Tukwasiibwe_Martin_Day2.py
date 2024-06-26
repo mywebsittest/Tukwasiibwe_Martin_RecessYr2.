@@ -51,7 +51,7 @@ the while loop repeates as long as  a condition is met
 
 # Example 
 
-cars = ['Tesla', 'Audi', 'BMW','jeep','RangRover']
+cars = ['Audi', 'Tyota' 'BMW', 'Subaru','jeep', 'Tesla' 'RangRover']
 
 for car in cars :
     print(car)
@@ -63,7 +63,27 @@ while count <= 10:
     print("count 1 to 10", count)
     count +=1
 
+
+
 #Exercise 
 """
-1.create your own list of favorate color using a
+1.create your own list of favorite colors using for loop
+2.create a reverse of the input 12345 to be 54321 using while loop
 """
+
+#For number 1:
+my_favorite_colors = ['Black', 'Yelow', 'Green','red','Orange']
+
+for color in my_favorite_colors :
+    print (color)
+
+# reversed_list = my_favorite_colors[::-1]
+#    for col in reversed_list:
+#        print(col)
+
+#Number 2
+
+count = 5
+while count >= 1:
+    print(count)
+    count -=1 

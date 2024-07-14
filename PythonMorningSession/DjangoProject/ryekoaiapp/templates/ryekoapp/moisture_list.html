@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soil</title>
+</head>
+<body>
+  <h1>Soil Moisture readings</h1>
+  <ul>
+    {% for reading in readings %}
+        <li>{{ reading.timestamp }}: {{ reading.moisture_percentage }}%</li>
+    {% endfor %}
+ <ul>
+  <p>Soil is a complex and essential component of our planet's ecosystem. It provides nutrients for plants, supports life underground, and plays a crucial role in the global water cycle.</p>
+</body>
+</html>
